@@ -1,0 +1,83 @@
+a:link {
+  color: brown;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: brown;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: brown;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.hr_1 {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: red;
+  border-width: 2px;
+  width: 100%;
+}
+
+.table_data {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.ContactMe {
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+  border-bottom-left-radius: 45%;
+  border-bottom-right-radius: 45%; */
+  background-color: #90EE90;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  border-top-left-radius: 60%;
+  border-top-right-radius: 60%;
+  border-bottom-left-radius: 60%;
+  border-bottom-right-radius: 60%;
+}
+
+.ContactMe:hover{
+  transform: scale(1.1);
+  background-color: #3e8e41;
+  color: white;
+}
+
+.linkedin {
+  text-align: center;
+}
+
+.contact_heading{
+  font-size: 20px;
+  font-family: cursive;
+  text-align: center;
+  color: white;
+  background-color: #666;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
